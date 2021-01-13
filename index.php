@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" type="" href="css/normalize.css">
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
     
     <script src='main.js'></script>
     <script src="https://kit.fontawesome.com/03af06112f.js" crossorigin="anonymous"></script>
