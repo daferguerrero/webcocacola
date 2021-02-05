@@ -1,4 +1,5 @@
-*{
+*
+{
     box-sizing: border-box;
 }
 
@@ -19,6 +20,9 @@ p
     color:black;
 }
 
+/* ------------------------- */
+/* CABECERA */
+/* ------------------------- */
 header
 {
     padding: 15px 0;
@@ -54,7 +58,13 @@ header .container .hamb
     display: none;
     position: relative;
 }
+/*----- ----- FIN CABECERA ----- -----*/
 
+
+
+/* ------------------------- */
+/* PIE DE PAGINA */
+/* ------------------------- */
 footer
 {
     background-color:black;
@@ -111,6 +121,50 @@ footer .redes a
 {
     margin: 0 7.5px;
 }
+/*----- ----- FIN PIE DE PAGINA ----- -----*/
+
+
+/* ------------------------- */
+/* SECCION BANNER PRINCIPAL */
+/* ------------------------- */
+#inicio
+{
+    position: relative;
+}
+
+#inicio img
+{
+    width: 100%;
+    display: block;
+}
+
+#inicio .bloque-inicio
+{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 400px;
+    text-align: center;
+    margin-left: -200px;
+}
+
+#inicio .bloque-inicio h1
+{
+    color: white;
+    font-size: 35px;
+}
+
+#inicio .bloque-inicio p
+{
+    color: white;
+    font-size: 16px;
+}
+/*----- ----- FIN SECCION BANNER PRINCIPAL ----- -----*/
+
+
+
+
+
 
 .boton
 {
@@ -178,7 +232,8 @@ footer .redes a
 
 .container
 {
-    width: 1140px;
+    /* width: 1140px; */
+    width: auto;
     margin: 0 auto 0 auto;
     padding-right: 15px;
     padding-left: 15px;
@@ -247,39 +302,11 @@ footer .redes a
     margin-left: 0;
 }
 
-#inicio
-{
-    position: relative;
-}
 
-#inicio img
-{
-    width: 100%;
-    display: block;
-}
 
-#inicio .bloque-inicio
-{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    width: 400px;
-    text-align: center;
-    margin-left: -200px;
-}
-
-#inicio .bloque-inicio h1
-{
-    color: white;
-    font-size: 35px;
-}
-
-#inicio .bloque-inicio p
-{
-    color: white;
-    font-size: 16px;
-}
-
+/* ------------------------- */
+/* SECCION NOSOTROS */
+/* ------------------------- */
 #nosotros
 {
     background-image: url(img/latas.jpg);
@@ -290,11 +317,17 @@ footer .redes a
 #nosotros p
 {
     color: white;
-    text-align: center; 
+    text-align: center;
     font-size: 16px;
     /*margin: 0;*/
 }
+/*----- ----- FIN SECCION NOSOTROS ----- -----*/
 
+
+
+/* ------------------------- */
+/* SECCION SERVICIOS */
+/* ------------------------- */
 #servicios .bloque-servicio
 {
     border: 1px solid grey;
@@ -320,7 +353,13 @@ footer .redes a
     margin-top: 0;
     font-size: 25px;
 }
+/*----- ----- FIN SECCION SERVICIOS ----- -----*/
 
+
+
+/* ------------------------- */
+/* SECCION GALERIA */
+/* ------------------------- */
 #galeria
 {
 
@@ -352,7 +391,13 @@ footer .redes a
 {
     display: none;
 }
+/*----- ----- FIN SECCION GALERIA ----- -----*/
 
+
+
+/* ------------------------- */
+/* SECCION CONTACTENOS */
+/* ------------------------- */
 #contactenos
 {
     position: relative;
@@ -403,6 +448,21 @@ footer .redes a
 #contactenos form .form-block .bloque-ultimo
 {
     margin-bottom: 0;
+}
+/*----- ----- FIN SECCION CONTACTENOS ----- -----*/
+
+
+
+@media(max-width: 1024px)
+{
+    #inicio .bloque-inicio h1 {
+       font-size: 30px;
+    }
+
+    #inicio .bloque-inicio p {
+        padding-inline: 30px;
+
+    }
 }
 
 @media(max-width: 767px)
@@ -467,7 +527,7 @@ footer .redes a
         width: 50%;
     }
 
-    footer .redes 
+    footer .redes
     {
         justify-content: center;
     }
@@ -491,7 +551,7 @@ footer .redes a
     {
         margin-left: 0;
     }
-    
+
     .sinpadding-mobile
     {
         padding: 0;
