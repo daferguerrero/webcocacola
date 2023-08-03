@@ -18,8 +18,8 @@ Puedes ver una demostración en vivo del proyecto [aquí](https://daferguerrero.
 
 ## Capturas de Pantalla
 <img src="https://github.com/daferguerrero/webcocacola/assets/74115222/5621210c-9991-4c41-8a80-98948cbc1e3e" alt="Captura pantalla" width="500"/>
-<img src="https://github.com/daferguerrero/webcocacola/assets/74115222/02f54d65-098d-4ca5-86d0-caab2ff23b71" alt="Captura pantalla" width="500"/>
 <img src="https://github.com/daferguerrero/webcocacola/assets/74115222/8b12ba24-db59-42d8-8ae9-f4a9a576414e" alt="Captura pantalla" width="500"/>
+<img src="https://github.com/daferguerrero/webcocacola/assets/74115222/02f54d65-098d-4ca5-86d0-caab2ff23b71" alt="Captura pantalla" width="500"/>
 
 ## Tecnologías utilizadas
 -   HTML 5: El marcado semántico de HTML se utiliza para estructurar y organizar el contenido del sitio web.
